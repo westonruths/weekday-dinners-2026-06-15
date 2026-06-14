@@ -1,0 +1,186 @@
+{
+  "kicker": "Ruths family dinner plan",
+  "title": "5 Weekday Dinners — June 15–19, 2026",
+  "description": "Built around the current fridge/freezer inventory and CSA vegetables, with every dinner including a protein, carb, and vegetable. Portions are sized for two adults plus Aria, with leftovers or adult lunch padding where useful.",
+  "useFirst": "Delicate greens, cilantro, butter/green/purple lettuces, older broccoli/chopped kale, and any already-thawed seafood.",
+  "useLater": "Lacinato kale, beet roots, green garlic/leeks, frozen proteins, and shelf-stable grains.",
+  "timeTarget": "All recipes are designed for under 60 minutes; most are 30–45 minutes with rice/quinoa started first.",
+  "buyIfNeeded": "Ginger, extra lemons/limes, one cucumber, avocado or fruit for toddler sides, and fresh fish only if the thawed mahi is no longer in its safe window.",
+  "notes": [
+    {
+      "title": "Food-safety note on the thawed mahi mahi",
+      "body": "USDA guidance says seafood thawed in the refrigerator should generally be cooked within another 1–2 days. If the mahi mahi was already thawed on Friday, do not hold it for Monday dinner; use it Sunday or replace with fresh/frozen fish.",
+      "source": {
+        "label": "USDA FSIS, The Big Thaw",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods"
+      }
+    },
+    {
+      "title": "Optional prep that makes the week easier",
+      "body": "Cook extra sushi rice on Tuesday or Wednesday for Wednesday/Thursday/Friday; wash and dry lettuces; cut beet/turnip greens from roots; thaw pork belly overnight Thursday for Friday."
+    }
+  ],
+  "days": [
+    {
+      "id": "monday",
+      "dateLabel": "Monday, June 15",
+      "title": "Lemon–green garlic chicken thighs, pearl couscous, and sautéed CSA greens",
+      "protein": "chicken thighs",
+      "carb": "pearl couscous",
+      "veg": "spinach/beet or turnip greens + green garlic/scapes",
+      "time": "40–45 min",
+      "tags": ["uses 1.25 lb chicken pack", "uses delicate greens first", "toddler-friendly"],
+      "ingredients": [
+        "1.25 lb boneless skinless chicken thighs",
+        "1½ cups pearl couscous",
+        "2¼ cups low-sodium chicken broth or water",
+        "6–8 cups CSA spinach, beet greens, turnip greens, or a mix, washed and chopped",
+        "2 green garlic stalks or garlic scapes, thinly sliced; use scallions if needed",
+        "1 lemon, zested and juiced",
+        "2–3 tbsp olive oil, divided",
+        "1 tsp paprika or smoked paprika",
+        "½ tsp dried oregano or thyme",
+        "Salt and pepper; keep Aria’s portion lighter on salt"
+      ],
+      "steps": [
+        "Pat chicken dry. Season with paprika, oregano, pepper, lemon zest, and a moderate pinch of salt.",
+        "Start couscous: toast it in 1 tbsp olive oil for 2 minutes, add broth/water, cover, and simmer 10–12 minutes until tender. Rest covered.",
+        "Heat 1 tbsp olive oil in a large skillet. Sear chicken 5–6 minutes per side until browned and cooked through to 165°F. Move to a plate.",
+        "In the same pan, sauté green garlic/scapes 1 minute. Add greens by handfuls with a splash of water. Cook 3–5 minutes until wilted and tender.",
+        "Finish greens with lemon juice and a drizzle of olive oil. Slice chicken and serve over couscous with greens on the side or folded in."
+      ],
+      "ariaServing": "chop chicken small; mix couscous with a little olive oil/lemon; finely chop cooked greens."
+    },
+    {
+      "id": "tuesday",
+      "dateLabel": "Tuesday, June 16",
+      "title": "Skin-on sockeye salmon, quinoa, and roasted broccoli–kale",
+      "protein": "sockeye salmon",
+      "carb": "quinoa",
+      "veg": "older broccoli + chopped kale",
+      "time": "35–45 min",
+      "tags": ["uses older broccoli/chopped kale", "fish night", "minimal cleanup"],
+      "ingredients": [
+        "1.25–1.5 lb Alaskan sockeye skin-on fillets",
+        "1¼ cups quinoa, rinsed",
+        "2½ cups water or broth",
+        "1 large head broccoli or 12–16 oz florets",
+        "4 cups chopped kale",
+        "1 lemon, half sliced and half juiced",
+        "2–3 tbsp olive oil",
+        "1 garlic clove, grated or minced",
+        "Salt, pepper, and optional garlic powder"
+      ],
+      "steps": [
+        "Heat oven to 425°F. Start quinoa with water/broth; simmer covered about 15 minutes, then rest 5 minutes.",
+        "Toss broccoli with olive oil, salt, pepper, and garlic. Roast on a sheet pan 12 minutes.",
+        "Add chopped kale to the sheet pan with a small drizzle of oil. Toss and push vegetables to one side.",
+        "Pat salmon dry. Season with pepper, a little salt, lemon juice, and optional garlic powder. Add to the sheet pan skin-side down with lemon slices on top.",
+        "Roast 8–12 minutes, depending on thickness, until salmon flakes and reaches your preferred doneness.",
+        "Serve salmon with quinoa and broccoli–kale; squeeze lemon over the adult plates."
+      ],
+      "ariaServing": "check carefully for bones, remove skin if tough, and flake salmon into small pieces."
+    },
+    {
+      "id": "wednesday",
+      "dateLabel": "Wednesday, June 17",
+      "title": "Soy–sesame ground pork lettuce rice bowls",
+      "protein": "ground pork",
+      "carb": "sushi rice",
+      "veg": "butter/green/purple lettuce + cilantro/scallions",
+      "time": "30–40 min",
+      "tags": ["uses lettuce volume", "uses cilantro/scallions", "deconstructed for toddler"],
+      "ingredients": [
+        "1 lb ground pork",
+        "1½ cups uncooked sushi rice",
+        "1–2 heads CSA butter/green/purple lettuce, washed and dried",
+        "3 scallions, sliced",
+        "½ cup cilantro, chopped",
+        "2 garlic cloves, minced",
+        "1 tbsp grated ginger, or ½ tsp ground ginger",
+        "2 tbsp low-sodium soy sauce",
+        "1 tbsp rice vinegar or lemon/lime juice",
+        "1 tsp sesame oil",
+        "Optional adults-only: chili crisp, sriracha, or gochujang at the table"
+      ],
+      "steps": [
+        "Start sushi rice in the rice cooker or on the stove.",
+        "Brown pork in a large skillet over medium-high heat, breaking it up well, 6–8 minutes. Drain excess fat if needed.",
+        "Add garlic, ginger, and the white/light-green scallion parts. Cook 1 minute.",
+        "Stir in soy sauce, vinegar/lemon, and sesame oil. Simmer 1–2 minutes until glossy.",
+        "Chop some lettuce for bowls and leave some leaves whole for wraps. Toss lettuce with cilantro, remaining scallions, a squeeze of lemon/lime, and a tiny drizzle of oil.",
+        "Serve rice topped with pork and lettuce salad; adults can add chili at the table."
+      ],
+      "ariaServing": "rice + pork with very finely chopped lettuce or a cooked green on the side; skip chili and go light on salty sauce."
+    },
+    {
+      "id": "thursday",
+      "dateLabel": "Thursday, June 18",
+      "title": "Shrimp fried rice with spinach, scallions, and eggs",
+      "protein": "shrimp + eggs",
+      "carb": "sushi rice",
+      "veg": "spinach/scallions/cilantro",
+      "time": "25–35 min with cooked rice; under 60 with fresh rice",
+      "tags": ["uses raw shrimp", "uses leftover rice", "fastest dinner"],
+      "ingredients": [
+        "1 lb raw shrimp, peeled/deveined if needed",
+        "4–5 cups cooked sushi rice, ideally chilled or at least cooled",
+        "3 eggs, beaten",
+        "4 cups spinach or mixed delicate greens, chopped",
+        "3 scallions, sliced",
+        "½ cup cilantro, chopped",
+        "2 garlic cloves, minced",
+        "1–2 tbsp neutral oil",
+        "1½–2 tbsp low-sodium soy sauce",
+        "1 tsp sesame oil",
+        "Optional: frozen peas/carrots if you have them"
+      ],
+      "steps": [
+        "If rice is not already cooked, start it first and spread it on a tray for a few minutes so it steams off.",
+        "Pat shrimp dry. Heat oil in a wok or large skillet; cook shrimp 1–2 minutes per side until pink. Remove and chop a few pieces smaller for Aria.",
+        "Add a little more oil if needed. Scramble eggs quickly, then move them to the shrimp plate.",
+        "Cook garlic and scallion whites 30 seconds. Add rice and stir-fry 3–5 minutes, breaking up clumps.",
+        "Add spinach/greens and cook until wilted. Return shrimp and eggs. Season with soy sauce and sesame oil.",
+        "Finish with scallion greens and cilantro."
+      ],
+      "ariaServing": "cut shrimp into small pieces lengthwise/crosswise, and keep her portion lower sodium."
+    },
+    {
+      "id": "friday",
+      "dateLabel": "Friday, June 19",
+      "title": "Pork belly lettuce wraps with rice and sangchu-geotjeori-style salad",
+      "protein": "pork belly slices",
+      "carb": "sushi rice",
+      "veg": "CSA lettuce + scallions/cilantro",
+      "time": "35–45 min if pork is thawed",
+      "tags": ["more fun Friday dinner", "uses lettuce hard", "thaw Thursday night"],
+      "note": "For the lettuce salad baseline, use the household standard: Maangchi’s sangchu-geotjeori — https://www.maangchi.com/recipe/sangchu-geotjeori. The version below keeps Aria’s portion unspiced/less salty and lets adults add heat separately.",
+      "ingredients": [
+        "1–1.25 lb frozen pork belly slices, thawed overnight",
+        "1½ cups uncooked sushi rice",
+        "2 heads or several big handfuls CSA lettuce leaves, washed and dried",
+        "3 scallions, sliced",
+        "½ cup cilantro, optional but useful if still fresh",
+        "1 cucumber, optional buy, cut into sticks",
+        "1 lemon or 1–2 tbsp rice vinegar",
+        "1 tbsp low-sodium soy sauce",
+        "1 tsp sesame oil",
+        "1 tsp toasted sesame seeds, optional",
+        "Adults-only add-ons: gochujang, ssamjang, kimchi, chili crisp, or gochugaru"
+      ],
+      "steps": [
+        "Start sushi rice. While it cooks, wash and dry lettuce thoroughly.",
+        "For a mild family lettuce salad, toss chopped lettuce with scallions, cilantro, lemon/rice vinegar, soy sauce, sesame oil, and sesame seeds. Pull out Aria’s portion before adding adult heat.",
+        "Heat a cast-iron pan or griddle over medium-high. Cook pork belly slices in batches until browned and cooked through, 2–4 minutes per side depending on thickness.",
+        "Drain pork on a towel-lined plate. Cut into bite-size pieces.",
+        "Serve as wraps: lettuce leaf + rice + pork + cucumber + adult sauce. Or serve deconstructed bowls for easier toddler eating."
+      ],
+      "ariaServing": "choose leaner, softer pork pieces, cut very small; serve rice and mild lettuce/cucumber separately."
+    }
+  ],
+  "groceryList": [
+    "Only if not stocked: ginger, extra lemons/limes, cucumber, low-sodium broth, sesame seeds.",
+    "Optional toddler sides: avocado, berries/fruit, plain yogurt, or cottage cheese.",
+    "Fresh/frozen white fish only if the already-thawed mahi mahi is not used Sunday and needs replacing."
+  ]
+}

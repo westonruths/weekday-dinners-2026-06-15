@@ -1,0 +1,40 @@
+{
+  "kicker": "Ruths family dinner plan",
+  "title": "5 Weekday Dinners — Month DD–DD, YYYY",
+  "description": "Built around the current fridge/freezer inventory and CSA vegetables, with every dinner including a protein, carb, and vegetable. Portions are sized for two adults plus Aria.",
+  "useFirst": "Most perishable vegetables/proteins to use early.",
+  "useLater": "Sturdier produce/proteins/grains that can wait.",
+  "timeTarget": "All recipes under 60 minutes; call out any prep shortcuts.",
+  "buyIfNeeded": "Short list of optional buys.",
+  "notes": [
+    {
+      "title": "Optional prep",
+      "body": "Cook grains, wash greens, thaw proteins, or prep sauces ahead."
+    }
+  ],
+  "days": [
+    {
+      "id": "monday",
+      "dateLabel": "Monday, Month DD",
+      "title": "Recipe title",
+      "protein": "protein",
+      "carb": "carb",
+      "veg": "vegetable",
+      "time": "30–45 min",
+      "tags": ["uses perishable item", "toddler-friendly"],
+      "note": "Optional recipe-specific note or source link.",
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2"
+      ],
+      "steps": [
+        "Step 1",
+        "Step 2"
+      ],
+      "ariaServing": "Toddler-serving note."
+    }
+  ],
+  "groceryList": [
+    "Grocery item or category."
+  ]
+}

@@ -85,8 +85,12 @@ def main() -> None:
         path = ROOT / week["path"]
         require(path.exists(), f"data/weeks/index.json: missing plan file {week['path']}")
         validate_plan(path)
+        page = ROOT / "weeks" / week["slug"] / "index.html"
+        require(page.exists(), f"data/weeks/index.json: missing generated page weeks/{week['slug']}/index.html")
+        page_text = page.read_text(encoding="utf-8")
+        require("window.MEAL_PLAN_BASE = '../../'" in page_text, f"weeks/{week['slug']}/index.html: missing subpage base path")
     require(len(slugs) == len(set(slugs)), "data/weeks/index.json: week slugs must be unique")
-    print(f"OK: validated {len(weeks)} week(s)")
+    print(f"OK: validated {len(weeks)} week(s) and subpage(s)")
 
 
 if __name__ == "__main__":

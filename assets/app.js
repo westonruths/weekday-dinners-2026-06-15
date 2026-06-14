@@ -1,4 +1,5 @@
-const INDEX_URL = 'data/weeks/index.json';
+const BASE_PATH = window.MEAL_PLAN_BASE || '';
+const INDEX_URL = `${BASE_PATH}data/weeks/index.json`;
 
 const app = document.querySelector('#app');
 
@@ -31,10 +32,15 @@ function tags(tags = []) {
 }
 
 function weekHref(slug) {
-  const url = new URL(window.location.href);
-  url.searchParams.set('week', slug);
-  url.hash = '';
-  return `${url.pathname}${url.search}${url.hash}`;
+  return `${BASE_PATH}weeks/${encodeURIComponent(slug)}/`;
+}
+
+function selectedSlugFromLocation() {
+  const requested = new URLSearchParams(window.location.search).get('week');
+  if (requested) return requested;
+
+  const match = window.location.pathname.match(/\/weeks\/([^/]+)\/?$/);
+  return match ? decodeURIComponent(match[1]) : null;
 }
 
 async function fetchJson(path) {
@@ -54,7 +60,7 @@ function renderWeekPicker(index, selectedSlug) {
           </a>
         `).join('')}
       </div>
-      <p class="small">To add another week, copy <code>templates/week-template.json</code> into <code>data/weeks/YYYY-MM-DD.json</code>, then add it to <code>data/weeks/index.json</code>.</p>
+      <p class="small">To add another week, copy <code>templates/week-template.json</code> into <code>data/weeks/YYYY-MM-DD.json</code>, add it to <code>data/weeks/index.json</code>, then run <code>python3 scripts/generate_pages.py && python3 scripts/validate.py</code>.</p>
     </section>
   `;
 }
@@ -125,7 +131,7 @@ function renderError(error) {
     <section class="error-card">
       <h2>Meal plan could not load</h2>
       <p>${escapeHtml(error.message)}</p>
-      <p class="small">Check JSON syntax and confirm the selected week exists in <code>data/weeks/index.json</code>.</p>
+      <p class="small">Check JSON syntax, generated week pages, and <code>data/weeks/index.json</code>.</p>
     </section>
   `;
 }
@@ -133,9 +139,9 @@ function renderError(error) {
 async function init() {
   try {
     const index = await fetchJson(INDEX_URL);
-    const requested = new URLSearchParams(window.location.search).get('week');
+    const requested = selectedSlugFromLocation();
     const selected = index.weeks.find(week => week.slug === requested) || index.weeks[0];
-    const plan = await fetchJson(selected.path);
+    const plan = await fetchJson(`${BASE_PATH}${selected.path}`);
     renderPlan(index, plan, selected.slug);
   } catch (error) {
     renderError(error);

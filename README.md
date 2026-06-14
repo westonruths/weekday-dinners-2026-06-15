@@ -14,6 +14,8 @@ The site is now data-driven:
 - `data/weeks/index.json` lists available weeks, newest first.
 - `data/weeks/YYYY-MM-DD.json` stores one week of recipes.
 - `templates/week-template.json` is the copy/paste starting point for future weeks.
+- `weeks/YYYY-MM-DD/index.html` gives each week a clean static subpage.
+- `scripts/generate_pages.py` regenerates root and weekly subpage shells from `data/weeks/index.json`.
 
 ## Add a new weekly meal plan
 
@@ -35,9 +37,10 @@ The site is now data-driven:
    }
    ```
 
-4. Validate before publishing:
+4. Generate subpages and validate before publishing:
 
    ```bash
+   python3 scripts/generate_pages.py
    python3 scripts/validate.py
    ```
 
@@ -52,7 +55,8 @@ The site is now data-driven:
 ## URL pattern
 
 - Latest week: `https://westonruths.github.io/weekday-dinners-2026-06-15/`
-- Specific week: `https://westonruths.github.io/weekday-dinners-2026-06-15/?week=2026-06-15`
+- Specific week subpage: `https://westonruths.github.io/weekday-dinners-2026-06-15/weeks/2026-06-15/`
+- Query fallback still works: `https://westonruths.github.io/weekday-dinners-2026-06-15/?week=2026-06-15`
 
 ## Data rules
 

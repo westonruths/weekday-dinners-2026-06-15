@@ -1,11 +1,11 @@
 {
   "kicker": "Ruths family dinner plan",
-  "title": "5 Weekday Dinners — June 15–19, 2026",
-  "description": "Built around the current fridge/freezer inventory and CSA vegetables, with every dinner including a protein, carb, and vegetable. Portions are sized for two adults plus Aria, with leftovers or adult lunch padding where useful.",
-  "useFirst": "Delicate greens, cilantro, butter/green/purple lettuces, older broccoli/chopped kale, and any already-thawed seafood.",
-  "useLater": "Lacinato kale, beet roots, green garlic/leeks, frozen proteins, and shelf-stable grains.",
-  "timeTarget": "All recipes are designed for under 60 minutes; most are 30–45 minutes with rice/quinoa started first.",
-  "buyIfNeeded": "Ginger, extra lemons/limes, one cucumber, avocado or fruit for toddler sides, and fresh fish only if the thawed mahi is no longer in its safe window.",
+  "title": "5 Weekday Dinners + Sunday Fish Dinner — June 15–21, 2026",
+  "description": "Built around the current fridge/freezer inventory and CSA vegetables, with every dinner including a protein, carb, and vegetable. Portions are sized for two adults plus Aria on weekdays, plus a light Sunday family dinner for four adults plus Aria.",
+  "useFirst": "Delicate greens, cilantro, berries, spinach, beet salad components/leftovers, and the 6 fish fillets planned for Sunday.",
+  "useLater": "Chicken thighs, ground turkey, lacinato kale, frozen proteins, and shelf-stable grains after the Sunday fish dinner.",
+  "timeTarget": "Weekday recipes are designed for under 60 minutes; Sunday fish dinner is about 45 minutes active/cook time if fish is thawed and beet salad components are ready.",
+  "buyIfNeeded": "Extra lemons/limes, cucumber or avocado for toddler sides, and Costco protein refills during the week if parents shop.",
   "notes": [
     {
       "title": "Food-safety note on the thawed mahi mahi",
@@ -18,6 +18,10 @@
     {
       "title": "Optional prep that makes the week easier",
       "body": "Cook extra sushi rice on Tuesday or Wednesday for Wednesday/Thursday/Friday; wash and dry lettuces; cut beet/turnip greens from roots; thaw pork belly overnight Thursday for Friday."
+    },
+    {
+      "title": "Sunday fish thaw and timing",
+      "body": "Move all 6 fish fillets to the refrigerator on a rimmed plate/pan by Saturday morning or midday for Sunday dinner. If still icy Sunday, finish thawing sealed fillets in cold water, changing water every 30 minutes; cook fish the same day."
     }
   ],
   "days": [
@@ -200,11 +204,52 @@
         "Serve as wraps: lettuce leaf + rice + pork + cucumber + adult sauce. Or serve deconstructed bowls for easier toddler eating."
       ],
       "ariaServing": "choose leaner, softer pork pieces, cut very small; serve rice and mild lettuce/cucumber separately."
+    },
+    {
+      "id": "sunday",
+      "dateLabel": "Sunday, June 21",
+      "title": "Lemon-herb salmon and mahi mahi with pearl couscous, broccoli, and beet salad appetizer",
+      "protein": "3 salmon fillets + 3 mahi mahi fillets",
+      "carb": "pearl couscous",
+      "veg": "broccoli + beet/goat-cheese salad appetizer",
+      "time": "40–50 min if fish is thawed",
+      "tags": [
+        "family dinner",
+        "uses all 6 fish fillets",
+        "beet salad appetizer",
+        "light meat portions"
+      ],
+      "note": "Best flow: serve the beet salad as small appetizer portions first, then put fish/couscous/broccoli family-style so light eaters can take ½–1 fillet and anyone hungry can take seconds.",
+      "ingredients": [
+        "3 sockeye salmon fillets, thawed and patted dry",
+        "3 mahi mahi fillets, thawed and patted dry",
+        "1½ cups pearl couscous",
+        "2¼ cups low-sodium broth or water",
+        "1 Costco bag broccoli florets, or about 1½–2 lb broccoli",
+        "2 lemons: zest 1 lemon, juice 1–1½ lemons, cut remaining lemon into wedges",
+        "2–3 tbsp olive oil, divided, plus more if needed for broccoli",
+        "2 garlic cloves, grated or minced; optional green garlic if you want to use it",
+        "½ tsp dried oregano or thyme",
+        "½ tsp paprika or smoked paprika, optional",
+        "Salt and pepper; keep Aria’s portion lighter on salt",
+        "Optional garnish: fennel fronds, parsley, mint, cilantro, or thinly sliced scallions",
+        "Beet salad appetizer: prepared beet salad, or beets + cuties/citrus + goat cheese + greens/herbs + lemon vinaigrette"
+      ],
+      "steps": [
+        "Earlier in the day: confirm all 6 fish fillets are thawing in the fridge on a rimmed plate/pan. If still icy, use sealed cold-water thaw and cook the same day.",
+        "Prep appetizer: keep beet salad components separate if possible. Dress greens/herbs/citrus lightly, then add beets and goat cheese on top so it stays pretty. Serve half-portions as the first course.",
+        "Heat oven to 425°F. Line 1–2 rimmed sheet pans with parchment or foil. Start couscous: toast in 1 tbsp olive oil for 2 minutes, add broth/water, cover, simmer 10–12 minutes, then rest covered.",
+        "Toss broccoli with olive oil, pepper, and a modest pinch of salt. Roast 12–15 minutes, stirring once, until browned at edges and tender-crisp.",
+        "Mix lemon zest, lemon juice, garlic/green garlic, oregano/thyme, paprika if using, 1–2 tbsp olive oil, pepper, and a modest pinch of salt. Rub over both kinds of fish.",
+        "Roast fish on a parchment-lined pan. If mahi pieces are much thicker than salmon, start mahi first for 3–4 minutes, then add salmon skin-side down. Continue roasting 8–12 minutes more, pulling each fillet when it flakes easily and reaches 145°F at the thickest part.",
+        "Fluff couscous and finish with a little lemon juice, olive oil, and optional herbs/fennel fronds. Serve fish family-style with couscous, broccoli, lemon wedges, and any pan juices."
+      ],
+      "ariaServing": "Check carefully for bones, remove tough salmon skin if needed, and flake fish into small pieces. Serve with couscous and soft broccoli; keep her portion lower salt and skip sharp raw salad pieces unless already toddler-safe."
     }
   ],
   "groceryList": [
-    "Only if not stocked: ginger, extra lemons/limes, cucumber, low-sodium broth, sesame seeds.",
+    "Only if not stocked: extra lemons/limes, cucumber or avocado, low-sodium broth, sesame seeds.",
     "Optional toddler sides: avocado, berries/fruit, plain yogurt, or cottage cheese.",
-    "Fresh/frozen white fish only if the already-thawed mahi mahi is not used Sunday and needs replacing."
+    "No extra Sunday protein needed if using the 3 salmon + 3 mahi mahi fillets; parents can refill Costco proteins during the week."
   ]
 }

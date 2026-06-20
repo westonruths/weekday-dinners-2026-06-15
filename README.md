@@ -63,6 +63,6 @@ The site is now data-driven:
 Each weekly JSON file should include:
 
 - `title`, `description`, use-up priorities, time target, and grocery notes.
-- Exactly five weekday `days` for normal weekly dinner planning.
+- Five weekday `days` for normal weekly dinner planning, with optional Saturday/Sunday add-on entries when the family wants weekend recipes in the same plan.
 - For each day: `protein`, `carb`, `veg`, `time`, `ingredients`, `steps`, and `ariaServing`.
 - Optional `notes`, `tags`, and recipe source links inside note/body text.

@@ -60,7 +60,7 @@ def validate_plan(path: Path) -> None:
     for field in REQUIRED_PLAN_FIELDS:
         require(field in plan, f"{path.relative_to(ROOT)}: missing {field}")
     require(isinstance(plan["days"], list), f"{path.relative_to(ROOT)}: days must be a list")
-    require(len(plan["days"]) == 5, f"{path.relative_to(ROOT)}: expected exactly 5 weekday dinners, found {len(plan['days'])}")
+    require(5 <= len(plan["days"]) <= 7, f"{path.relative_to(ROOT)}: expected 5 weekday dinners with optional weekend add-ons, found {len(plan['days'])}")
     require(isinstance(plan["groceryList"], list), f"{path.relative_to(ROOT)}: groceryList must be a list")
     ids = []
     for idx, day in enumerate(plan["days"], start=1):
